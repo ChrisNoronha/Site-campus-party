@@ -12,6 +12,7 @@
   background-size: cover;
   background-position: center;
   height: 150px; 
+  width: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -51,6 +52,7 @@
 
 .sec-content-index {
   border-top: 2px solid #0066ff; /* azul claro */
+  width: auto;
   margin-top: 20px;
   display: flex;
   flex-direction: row;
