@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+* {
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Kanit', sans-serif;
+}
+
+
+.cabecalho-index {
+  background-image: url('cabecalho.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 150px; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end; 
+  padding-right: 20px; 
+  border-bottom: 2px solid #0066ff; 
+}
+
+.link-head {
+  color: #ffffff; /* Branco */
+  font-weight: 700;
+  font-size: 1em; 
+  margin-right: 20px; 
+}
+
+.link-head:hover {
+  color: #ffffff; 
+  transition: all 0.3s ease;
+  font-size: 140%; 
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #000000; 
+}
+
+
+.titulo-index {
+  font-weight: 900;
+  position: relative;
+}
+
+.texto-index {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.sec-content-index {
+  border-top: 2px solid #0066ff; /* azul claro */
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-weight: 500;
+  font-size: 1em; /* mantive 1em para manter a consistência */
+  background-color: #f0f5f9; /* azul claro mais claro */
+  margin-bottom: 0;
+}
+
+/* video */
+p.video {
+  text-align: center;
+}
+
+h2.video {
+  text-align: center;
+  border-radius: 5px;
+  width: 700px;
+  height: 45px;
+}
+
+a.video {
+  width: 300px;
+  height: 300px;
+}
+
+a.video:hover {
+  color: #0066ff; /* azul claro */
+  transition: all 0.3s ease;
+  font-size: 115%;
+}
+
+/* maps */
+.content-maps {
+  margin-bottom: 48px;
+  border-top: 0.4px solid #9ea5ff; /* azul claro mais claro */
+  padding: 20px;
+}
+
+.maps {
+  justify-content: space-around;
+}
+
+.content-main-maps {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.content-main-paragraph-maps {
+  font-size: 20px;
+  padding-left: 40px;
+  color: black;
+}
+
+.content-main-writing-maps {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.content-main-writing-title-maps {
+  color: red;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.content-main-writing-subtitle-maps {
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+/* sobre */
+p.sobre {
+  padding: 10px;
+  text-align: justify;
+}
+
+.linha-sobre {
+  border: 2px solid #0066ff; /* azul claro */
+}
