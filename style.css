@@ -6,7 +6,6 @@
   font-family: 'Kanit', sans-serif;
 }
 
-
 .cabecalho-index {
   background-image: url('cabecalho.jpg'); 
   background-size: cover;
@@ -17,7 +16,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-end; 
-  padding-right: 20px; 
+  padding: 20px; 
   border-bottom: 2px solid #0066ff; 
 }
 
@@ -28,13 +27,17 @@
   margin-right: 20px; 
 }
 
+.img {
+  display: block; /* Garante que a imagem ocupe toda a largura disponível */
+  margin: 0 auto; /* Centraliza horizontalmente */
+}
+
 .link-head:hover {
   color: #ffffff; 
   transition: all 0.3s ease;
   font-size: 140%; 
   text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #000000; 
 }
-
 
 .titulo-index {
   font-weight: 900;
@@ -78,6 +81,8 @@ h2.video {
 }
 
 a.video {
+  display: block; /* Garante que o link do vídeo ocupe toda a largura disponível */
+  margin: 0 auto; /* Centraliza horizontalmente */
   width: 300px;
   height: 300px;
 }
@@ -96,7 +101,8 @@ a.video:hover {
 }
 
 .maps {
-  justify-content: space-around;
+  display: flex; /* Ativa o flexbox para o container do mapa */
+  justify-content: center; /* Centraliza horizontalmente */
 }
 
 .content-main-maps {
@@ -116,6 +122,8 @@ a.video:hover {
   display: flex;
   flex-direction: column;
   gap: 32px;
+  align-items: center; /* Centraliza verticalmente */
+  text-align: center; /* Centraliza horizontalmente */
 }
 
 .content-main-writing-title-maps {
